@@ -9,7 +9,7 @@ export const loadPhrases = async (): Promise<Phrase[]> => {
   }
 
   try {
-    // Load phrase data directly from the imported data
+    // Load phrase data directly from the generated data
     cachedPhrases = phraseData;
     console.log('Loaded phrases:', cachedPhrases.length);
     return cachedPhrases;
